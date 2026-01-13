@@ -12,6 +12,5 @@ public class Task_26Dec25 {
 
         int a = 5;
         System.out.println(a++ + a--); //5+6
-        System.out.println();
     }
 }

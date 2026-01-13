@@ -27,6 +27,5 @@ public class Task_30Dec25 {
         {
             System.out.println("F");
         }
-        System.out.println();
     }
 }

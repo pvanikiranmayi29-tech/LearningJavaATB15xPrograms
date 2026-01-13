@@ -13,6 +13,5 @@ public class Task1_17Dec25 {
         System.out.printf("%d x 8 = %d%n",d,(d *8));
         System.out.printf("%d x 9 = %d%n",d,(d *9));
         System.out.printf("%d x 10 = %d%n",d,(d *10));
-        System.out.println("End");
     }
 }
