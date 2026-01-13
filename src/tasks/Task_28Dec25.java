@@ -23,5 +23,6 @@ public class Task_28Dec25 {
                 System.out.println(i);
             }
         }
+        System.out.println();
     }
 }
