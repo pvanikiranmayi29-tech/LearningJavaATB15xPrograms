@@ -1,5 +1,9 @@
 package exam_18Jan26;
 
+/*Program Name: Reverse a String
+Description:
+Write a Java program to reverse a given string using a loop.*/
+
 import java.util.Scanner;
 
 public class Test05_StringReverse {

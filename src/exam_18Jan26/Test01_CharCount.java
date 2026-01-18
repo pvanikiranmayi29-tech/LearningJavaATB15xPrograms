@@ -1,3 +1,7 @@
+/*Program Name: Count Characters in a String
+Description:
+Write a Java program to count the total number of characters in a given string (excluding spaces).*/
+
 package exam_18Jan26;
 
 import java.util.Scanner;
@@ -7,7 +11,7 @@ public class Test01_CharCount {
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a String");
-        String input=sc.next();
+        String input=sc.nextLine();
 
         System.out.println("The total number of char in given string is: "+input.length());
 
@@ -15,8 +19,11 @@ public class Test01_CharCount {
 
         for (int i = 0; i < input.length(); i++)
         {
-            count=count+1;
+            if(input.charAt(i)!=' ')
+            {
+                count=count+1;
+            }
         }
-        System.out.println("W/O function use - The total number of char in given string is: "+count);
+        System.out.println("W/O function use - The total number of char(excluding space) in given string is: "+count);
     }
 }
